@@ -10,6 +10,7 @@ Todos los cambios importantes de este proyecto serán documentados en este archi
 - Reestructuración completa del sistema usando clases (`Producto` y `DigitalMarKet`).
 - Menú reorganizado dentro de la clase principal para mayor modularidad.
 - Manejo de errores y excepciones más robusto.
+- Volvimos a probar
 
 ## [1.1.0] - 2026-05-30
 
