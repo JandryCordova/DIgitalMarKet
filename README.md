@@ -1,5 +1,5 @@
 
-# 🛒 DigitalMarKet V1.1.0
+# 🛒 DigitalMarKet V2.0.0
 
 
 ![Python](https://img.shields.io/badge/Python-3.13.1-blue)
