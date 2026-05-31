@@ -1,5 +1,4 @@
-# DIgitalMarKet
-# 🛒 DigitalMarKet
+# 🛒 DigitalMarKet V1.0.0
 
 ![Python](https://img.shields.io/badge/Python-3.13.1-blue)
 ![Version](https://img.shields.io/badge/Version-1.0.0-green)
@@ -34,6 +33,7 @@ DigitalMarKet es un software básico desarrollado en Python para pequeñas tiend
 DigitalMarKet/
 │
 ├── productos.py
+├── CHANGELOG.md
 ├── LICENSE
 ├── README.md
 └── .gitignore
