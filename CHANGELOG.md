@@ -24,3 +24,11 @@ Todos los cambios importantes de este proyecto serán documentados en este archi
 - Se agregó validación para evitar el registro de productos con nombres vacíos.
 - Se mejoró el control de entrada de datos en el menú principal.
 - Se optimizaron mensajes informativos para el usuario.
+
+## [1.1.0] - 2026-05-30
+
+### ✨ Added
+
+- Registro de precios por producto.
+- Visualización de precios en la consulta de productos.
+- Estructura de datos mejorada para almacenar múltiples atributos por producto.
