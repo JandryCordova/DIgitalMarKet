@@ -16,3 +16,11 @@ Todos los cambios importantes de este proyecto serán documentados en este archi
 - Configuración inicial del repositorio GitHub
 - Archivo LICENSE
 - Archivo .gitignore
+
+# [1.0.1] - 2026-05-30
+
+## 🐛 Changed
+
+- Se agregó validación para evitar el registro de productos con nombres vacíos.
+- Se mejoró el control de entrada de datos en el menú principal.
+- Se optimizaron mensajes informativos para el usuario.

@@ -9,9 +9,13 @@ while True:
     opcion = input("Seleccione una opción: ")
 
     if opcion == "1":
-        nombre = input("Ingrese el nombre del producto: ")
-        productos.append(nombre)
-        print("Producto registrado correctamente.")
+        nombre = input("Ingrese el nombre del producto: ").strip()
+
+        if nombre == "":
+            print("Error: El nombre del producto no puede estar vacío.")
+        else:
+            productos.append(nombre)
+            print("Producto registrado correctamente.")
 
     elif opcion == "2":
         print("\n=== Productos Registrados ===")
