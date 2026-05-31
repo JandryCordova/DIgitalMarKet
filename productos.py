@@ -12,9 +12,17 @@ while True:
         nombre = input("Ingrese el nombre del producto: ").strip()
 
         if nombre == "":
-            print("Error: El nombre del producto no puede estar vacío.")
+            print("Error: El nombre no puede estar vacío.")
         else:
-            productos.append(nombre)
+            precio = float(input("Ingrese el precio del producto: "))
+
+            producto = {
+                "nombre": nombre,
+                "precio": precio
+            }
+
+            productos.append(producto)
+
             print("Producto registrado correctamente.")
 
     elif opcion == "2":
@@ -24,11 +32,13 @@ while True:
             print("No hay productos registrados.")
         else:
             for producto in productos:
-                print("-", producto)
+                print(
+                    f"Producto: {producto['nombre']} | Precio: ${producto['precio']:.2f}"
+                )
 
     elif opcion == "3":
         print("Saliendo del sistema...")
         break
 
     else:
-        print("Opción inválida. Intente nuevamente.")
+        print("Opción inválida.")
